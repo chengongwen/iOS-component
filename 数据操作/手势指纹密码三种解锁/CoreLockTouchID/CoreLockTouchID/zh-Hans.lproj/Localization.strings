@@ -1,0 +1,8 @@
+/* 
+  Localization.strings
+  CoreLockTouchID
+
+  Created by yuanshanit on 15/10/30.
+  Copyright © 2015年 元善科技. All rights reserved.
+*/
+"SMILE_REASON" = "通过验证指纹解锁";

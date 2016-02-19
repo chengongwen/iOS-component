@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7972D6931BE74AA800989414 /* TouchIdUnlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 7972D6921BE74AA800989414 /* TouchIdUnlock.m */; };
+		799C47731BDDD063008DA625 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C47721BDDD063008DA625 /* main.m */; };
+		799C47761BDDD063008DA625 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C47751BDDD063008DA625 /* AppDelegate.m */; };
+		799C477E1BDDD063008DA625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 799C477D1BDDD063008DA625 /* Assets.xcassets */; };
+		799C47811BDDD063008DA625 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799C477F1BDDD063008DA625 /* LaunchScreen.storyboard */; };
+		799C47B21BDDD0AA008DA625 /* CLLockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C478B1BDDD0AA008DA625 /* CLLockVC.m */; };
+		799C47B31BDDD0AA008DA625 /* CLLockVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799C478C1BDDD0AA008DA625 /* CLLockVC.xib */; };
+		799C47B41BDDD0AA008DA625 /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C47901BDDD0AA008DA625 /* CALayer+Anim.m */; };
+		799C47B51BDDD0AA008DA625 /* CoreLockConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C47931BDDD0AA008DA625 /* CoreLockConst.m */; };
+		799C47B61BDDD0AA008DA625 /* CLLockNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C47961BDDD0AA008DA625 /* CLLockNavVC.m */; };
+		799C47B71BDDD0AA008DA625 /* CLLockInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C47991BDDD0AA008DA625 /* CLLockInfoView.m */; };
+		799C47B81BDDD0AA008DA625 /* CLLockItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C479B1BDDD0AA008DA625 /* CLLockItemView.m */; };
+		799C47B91BDDD0AA008DA625 /* CLLockLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C479D1BDDD0AA008DA625 /* CLLockLabel.m */; };
+		799C47BA1BDDD0AA008DA625 /* CLLockMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C479F1BDDD0AA008DA625 /* CLLockMainView.m */; };
+		799C47BB1BDDD0AA008DA625 /* CLLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C47A11BDDD0AA008DA625 /* CLLockView.m */; };
+		799C47C71BDDD15F008DA625 /* SmileMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C47C51BDDD15F008DA625 /* SmileMainVC.m */; };
+		799C47C81BDDD15F008DA625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 799C47C61BDDD15F008DA625 /* Main.storyboard */; };
+		799C47D11BDDD28D008DA625 /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C47CC1BDDD28D008DA625 /* NSString+File.m */; };
+		799C47D21BDDD28D008DA625 /* CoreArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 799C47CE1BDDD28D008DA625 /* CoreArchive.m */; };
+		79AC673E1BE31B9B008B51F0 /* smile_Touch_ID@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79AC67301BE31B9B008B51F0 /* smile_Touch_ID@2x.png */; };
+		79AC673F1BE31B9B008B51F0 /* smile_Touch_ID@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79AC67311BE31B9B008B51F0 /* smile_Touch_ID@3x.png */; };
+		79AC67401BE31B9B008B51F0 /* SmileSettingVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79AC67321BE31B9B008B51F0 /* SmileSettingVC.storyboard */; };
+		79AC67411BE31B9B008B51F0 /* SmileAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AC67351BE31B9B008B51F0 /* SmileAuthenticator.m */; };
+		79AC67421BE31B9B008B51F0 /* SmileKeychainWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AC67371BE31B9B008B51F0 /* SmileKeychainWrapper.m */; };
+		79AC67431BE31B9B008B51F0 /* SmilePasswordContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AC67391BE31B9B008B51F0 /* SmilePasswordContainerView.m */; };
+		79AC67441BE31B9B008B51F0 /* SmilePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AC673B1BE31B9B008B51F0 /* SmilePasswordView.m */; };
+		79AC67451BE31B9B008B51F0 /* SmileSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 79AC673D1BE31B9B008B51F0 /* SmileSettingVC.m */; };
+		79AC67581BE36B60008B51F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79AC675A1BE36B60008B51F0 /* InfoPlist.strings */; };
+		79AC675E1BE36BCD008B51F0 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79AC675C1BE36BCD008B51F0 /* Localization.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7972D6911BE74AA800989414 /* TouchIdUnlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchIdUnlock.h; sourceTree = "<group>"; };
+		7972D6921BE74AA800989414 /* TouchIdUnlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchIdUnlock.m; sourceTree = "<group>"; };
+		799C476E1BDDD063008DA625 /* CoreLockTouchID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreLockTouchID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		799C47721BDDD063008DA625 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		799C47741BDDD063008DA625 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		799C47751BDDD063008DA625 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		799C477D1BDDD063008DA625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		799C47801BDDD063008DA625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		799C47821BDDD063008DA625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799C478A1BDDD0AA008DA625 /* CLLockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockVC.h; sourceTree = "<group>"; };
+		799C478B1BDDD0AA008DA625 /* CLLockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockVC.m; sourceTree = "<group>"; };
+		799C478C1BDDD0AA008DA625 /* CLLockVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLLockVC.xib; sourceTree = "<group>"; };
+		799C478F1BDDD0AA008DA625 /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
+		799C47901BDDD0AA008DA625 /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
+		799C47921BDDD0AA008DA625 /* CoreLockConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLockConst.h; sourceTree = "<group>"; };
+		799C47931BDDD0AA008DA625 /* CoreLockConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLockConst.m; sourceTree = "<group>"; };
+		799C47951BDDD0AA008DA625 /* CLLockNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockNavVC.h; sourceTree = "<group>"; };
+		799C47961BDDD0AA008DA625 /* CLLockNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockNavVC.m; sourceTree = "<group>"; };
+		799C47981BDDD0AA008DA625 /* CLLockInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockInfoView.h; sourceTree = "<group>"; };
+		799C47991BDDD0AA008DA625 /* CLLockInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockInfoView.m; sourceTree = "<group>"; };
+		799C479A1BDDD0AA008DA625 /* CLLockItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockItemView.h; sourceTree = "<group>"; };
+		799C479B1BDDD0AA008DA625 /* CLLockItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockItemView.m; sourceTree = "<group>"; };
+		799C479C1BDDD0AA008DA625 /* CLLockLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockLabel.h; sourceTree = "<group>"; };
+		799C479D1BDDD0AA008DA625 /* CLLockLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockLabel.m; sourceTree = "<group>"; };
+		799C479E1BDDD0AA008DA625 /* CLLockMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockMainView.h; sourceTree = "<group>"; };
+		799C479F1BDDD0AA008DA625 /* CLLockMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockMainView.m; sourceTree = "<group>"; };
+		799C47A01BDDD0AA008DA625 /* CLLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockView.h; sourceTree = "<group>"; };
+		799C47A11BDDD0AA008DA625 /* CLLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockView.m; sourceTree = "<group>"; };
+		799C47C41BDDD15F008DA625 /* SmileMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileMainVC.h; sourceTree = "<group>"; };
+		799C47C51BDDD15F008DA625 /* SmileMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileMainVC.m; sourceTree = "<group>"; };
+		799C47C61BDDD15F008DA625 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		799C47CB1BDDD28D008DA625 /* NSString+File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
+		799C47CC1BDDD28D008DA625 /* NSString+File.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+File.m"; sourceTree = "<group>"; };
+		799C47CD1BDDD28D008DA625 /* CoreArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreArchive.h; sourceTree = "<group>"; };
+		799C47CE1BDDD28D008DA625 /* CoreArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreArchive.m; sourceTree = "<group>"; };
+		799C47D01BDDD28D008DA625 /* CoreConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreConst.h; sourceTree = "<group>"; };
+		79AC67301BE31B9B008B51F0 /* smile_Touch_ID@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smile_Touch_ID@2x.png"; sourceTree = "<group>"; };
+		79AC67311BE31B9B008B51F0 /* smile_Touch_ID@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smile_Touch_ID@3x.png"; sourceTree = "<group>"; };
+		79AC67321BE31B9B008B51F0 /* SmileSettingVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SmileSettingVC.storyboard; sourceTree = "<group>"; };
+		79AC67341BE31B9B008B51F0 /* SmileAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileAuthenticator.h; sourceTree = "<group>"; };
+		79AC67351BE31B9B008B51F0 /* SmileAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileAuthenticator.m; sourceTree = "<group>"; };
+		79AC67361BE31B9B008B51F0 /* SmileKeychainWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileKeychainWrapper.h; sourceTree = "<group>"; };
+		79AC67371BE31B9B008B51F0 /* SmileKeychainWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileKeychainWrapper.m; sourceTree = "<group>"; };
+		79AC67381BE31B9B008B51F0 /* SmilePasswordContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmilePasswordContainerView.h; sourceTree = "<group>"; };
+		79AC67391BE31B9B008B51F0 /* SmilePasswordContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmilePasswordContainerView.m; sourceTree = "<group>"; };
+		79AC673A1BE31B9B008B51F0 /* SmilePasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmilePasswordView.h; sourceTree = "<group>"; };
+		79AC673B1BE31B9B008B51F0 /* SmilePasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmilePasswordView.m; sourceTree = "<group>"; };
+		79AC673C1BE31B9B008B51F0 /* SmileSettingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileSettingVC.h; sourceTree = "<group>"; };
+		79AC673D1BE31B9B008B51F0 /* SmileSettingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileSettingVC.m; sourceTree = "<group>"; };
+		79AC67501BE3691B008B51F0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		79AC67591BE36B60008B51F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		79AC675B1BE36B61008B51F0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		79AC675D1BE36BCD008B51F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
+		79AC675F1BE36BD2008B51F0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localization.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		799C476B1BDDD063008DA625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7972D6901BE74AA800989414 /* TouchIDUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				7972D6911BE74AA800989414 /* TouchIdUnlock.h */,
+				7972D6921BE74AA800989414 /* TouchIdUnlock.m */,
+			);
+			path = TouchIDUnlock;
+			sourceTree = "<group>";
+		};
+		799C47651BDDD063008DA625 = {
+			isa = PBXGroup;
+			children = (
+				799C47701BDDD063008DA625 /* CoreLockTouchID */,
+				799C476F1BDDD063008DA625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		799C476F1BDDD063008DA625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				799C476E1BDDD063008DA625 /* CoreLockTouchID.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		799C47701BDDD063008DA625 /* CoreLockTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				799C47741BDDD063008DA625 /* AppDelegate.h */,
+				799C47751BDDD063008DA625 /* AppDelegate.m */,
+				799C47C41BDDD15F008DA625 /* SmileMainVC.h */,
+				799C47C51BDDD15F008DA625 /* SmileMainVC.m */,
+				799C47C61BDDD15F008DA625 /* Main.storyboard */,
+				799C47881BDDD0AA008DA625 /* OpenSource */,
+				799C477D1BDDD063008DA625 /* Assets.xcassets */,
+				799C477F1BDDD063008DA625 /* LaunchScreen.storyboard */,
+				799C47821BDDD063008DA625 /* Info.plist */,
+				799C47711BDDD063008DA625 /* Supporting Files */,
+			);
+			path = CoreLockTouchID;
+			sourceTree = "<group>";
+		};
+		799C47711BDDD063008DA625 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				799C47721BDDD063008DA625 /* main.m */,
+				79AC675A1BE36B60008B51F0 /* InfoPlist.strings */,
+				79AC675C1BE36BCD008B51F0 /* Localization.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		799C47881BDDD0AA008DA625 /* OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+				7972D6901BE74AA800989414 /* TouchIDUnlock */,
+				79AC672E1BE31B9B008B51F0 /* SmileTouchID */,
+				799C47891BDDD0AA008DA625 /* CoreLock */,
+			);
+			path = OpenSource;
+			sourceTree = "<group>";
+		};
+		799C47891BDDD0AA008DA625 /* CoreLock */ = {
+			isa = PBXGroup;
+			children = (
+				799C478A1BDDD0AA008DA625 /* CLLockVC.h */,
+				799C478B1BDDD0AA008DA625 /* CLLockVC.m */,
+				799C478C1BDDD0AA008DA625 /* CLLockVC.xib */,
+				799C478D1BDDD0AA008DA625 /* Lib */,
+			);
+			path = CoreLock;
+			sourceTree = "<group>";
+		};
+		799C478D1BDDD0AA008DA625 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				799C47C91BDDD28D008DA625 /* CoreArchive */,
+				799C47CF1BDDD28D008DA625 /* CoreExtend */,
+				799C478E1BDDD0AA008DA625 /* Category */,
+				799C47911BDDD0AA008DA625 /* Const */,
+				799C47941BDDD0AA008DA625 /* Controller */,
+				799C47971BDDD0AA008DA625 /* View */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		799C478E1BDDD0AA008DA625 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				799C478F1BDDD0AA008DA625 /* CALayer+Anim.h */,
+				799C47901BDDD0AA008DA625 /* CALayer+Anim.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		799C47911BDDD0AA008DA625 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				799C47921BDDD0AA008DA625 /* CoreLockConst.h */,
+				799C47931BDDD0AA008DA625 /* CoreLockConst.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		799C47941BDDD0AA008DA625 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				799C47951BDDD0AA008DA625 /* CLLockNavVC.h */,
+				799C47961BDDD0AA008DA625 /* CLLockNavVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		799C47971BDDD0AA008DA625 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				799C47981BDDD0AA008DA625 /* CLLockInfoView.h */,
+				799C47991BDDD0AA008DA625 /* CLLockInfoView.m */,
+				799C479A1BDDD0AA008DA625 /* CLLockItemView.h */,
+				799C479B1BDDD0AA008DA625 /* CLLockItemView.m */,
+				799C479C1BDDD0AA008DA625 /* CLLockLabel.h */,
+				799C479D1BDDD0AA008DA625 /* CLLockLabel.m */,
+				799C479E1BDDD0AA008DA625 /* CLLockMainView.h */,
+				799C479F1BDDD0AA008DA625 /* CLLockMainView.m */,
+				799C47A01BDDD0AA008DA625 /* CLLockView.h */,
+				799C47A11BDDD0AA008DA625 /* CLLockView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		799C47C91BDDD28D008DA625 /* CoreArchive */ = {
+			isa = PBXGroup;
+			children = (
+				799C47CA1BDDD28D008DA625 /* Category */,
+				799C47CD1BDDD28D008DA625 /* CoreArchive.h */,
+				799C47CE1BDDD28D008DA625 /* CoreArchive.m */,
+			);
+			path = CoreArchive;
+			sourceTree = "<group>";
+		};
+		799C47CA1BDDD28D008DA625 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				799C47CB1BDDD28D008DA625 /* NSString+File.h */,
+				799C47CC1BDDD28D008DA625 /* NSString+File.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		799C47CF1BDDD28D008DA625 /* CoreExtend */ = {
+			isa = PBXGroup;
+			children = (
+				799C47D01BDDD28D008DA625 /* CoreConst.h */,
+			);
+			path = CoreExtend;
+			sourceTree = "<group>";
+		};
+		79AC672E1BE31B9B008B51F0 /* SmileTouchID */ = {
+			isa = PBXGroup;
+			children = (
+				79AC672F1BE31B9B008B51F0 /* Assets */,
+				79AC67331BE31B9B008B51F0 /* Classes */,
+			);
+			path = SmileTouchID;
+			sourceTree = "<group>";
+		};
+		79AC672F1BE31B9B008B51F0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				79AC67301BE31B9B008B51F0 /* smile_Touch_ID@2x.png */,
+				79AC67311BE31B9B008B51F0 /* smile_Touch_ID@3x.png */,
+				79AC67321BE31B9B008B51F0 /* SmileSettingVC.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		79AC67331BE31B9B008B51F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				79AC67341BE31B9B008B51F0 /* SmileAuthenticator.h */,
+				79AC67351BE31B9B008B51F0 /* SmileAuthenticator.m */,
+				79AC67361BE31B9B008B51F0 /* SmileKeychainWrapper.h */,
+				79AC67371BE31B9B008B51F0 /* SmileKeychainWrapper.m */,
+				79AC67381BE31B9B008B51F0 /* SmilePasswordContainerView.h */,
+				79AC67391BE31B9B008B51F0 /* SmilePasswordContainerView.m */,
+				79AC673A1BE31B9B008B51F0 /* SmilePasswordView.h */,
+				79AC673B1BE31B9B008B51F0 /* SmilePasswordView.m */,
+				79AC673C1BE31B9B008B51F0 /* SmileSettingVC.h */,
+				79AC673D1BE31B9B008B51F0 /* SmileSettingVC.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		799C476D1BDDD063008DA625 /* CoreLockTouchID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799C47851BDDD063008DA625 /* Build configuration list for PBXNativeTarget "CoreLockTouchID" */;
+			buildPhases = (
+				799C476A1BDDD063008DA625 /* Sources */,
+				799C476B1BDDD063008DA625 /* Frameworks */,
+				799C476C1BDDD063008DA625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreLockTouchID;
+			productName = CoreLockTouchID;
+			productReference = 799C476E1BDDD063008DA625 /* CoreLockTouchID.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		799C47661BDDD063008DA625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "元善科技";
+				TargetAttributes = {
+					799C476D1BDDD063008DA625 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 29EUBLDMY7;
+					};
+				};
+			};
+			buildConfigurationList = 799C47691BDDD063008DA625 /* Build configuration list for PBXProject "CoreLockTouchID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 799C47651BDDD063008DA625;
+			productRefGroup = 799C476F1BDDD063008DA625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				799C476D1BDDD063008DA625 /* CoreLockTouchID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		799C476C1BDDD063008DA625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799C47C81BDDD15F008DA625 /* Main.storyboard in Resources */,
+				799C47811BDDD063008DA625 /* LaunchScreen.storyboard in Resources */,
+				79AC67401BE31B9B008B51F0 /* SmileSettingVC.storyboard in Resources */,
+				799C477E1BDDD063008DA625 /* Assets.xcassets in Resources */,
+				79AC675E1BE36BCD008B51F0 /* Localization.strings in Resources */,
+				79AC673F1BE31B9B008B51F0 /* smile_Touch_ID@3x.png in Resources */,
+				79AC673E1BE31B9B008B51F0 /* smile_Touch_ID@2x.png in Resources */,
+				79AC67581BE36B60008B51F0 /* InfoPlist.strings in Resources */,
+				799C47B31BDDD0AA008DA625 /* CLLockVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		799C476A1BDDD063008DA625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799C47B91BDDD0AA008DA625 /* CLLockLabel.m in Sources */,
+				79AC67411BE31B9B008B51F0 /* SmileAuthenticator.m in Sources */,
+				79AC67451BE31B9B008B51F0 /* SmileSettingVC.m in Sources */,
+				799C47C71BDDD15F008DA625 /* SmileMainVC.m in Sources */,
+				799C47B51BDDD0AA008DA625 /* CoreLockConst.m in Sources */,
+				799C47B71BDDD0AA008DA625 /* CLLockInfoView.m in Sources */,
+				799C47BA1BDDD0AA008DA625 /* CLLockMainView.m in Sources */,
+				799C47761BDDD063008DA625 /* AppDelegate.m in Sources */,
+				799C47BB1BDDD0AA008DA625 /* CLLockView.m in Sources */,
+				79AC67431BE31B9B008B51F0 /* SmilePasswordContainerView.m in Sources */,
+				79AC67421BE31B9B008B51F0 /* SmileKeychainWrapper.m in Sources */,
+				79AC67441BE31B9B008B51F0 /* SmilePasswordView.m in Sources */,
+				799C47B21BDDD0AA008DA625 /* CLLockVC.m in Sources */,
+				799C47D11BDDD28D008DA625 /* NSString+File.m in Sources */,
+				7972D6931BE74AA800989414 /* TouchIdUnlock.m in Sources */,
+				799C47B61BDDD0AA008DA625 /* CLLockNavVC.m in Sources */,
+				799C47D21BDDD28D008DA625 /* CoreArchive.m in Sources */,
+				799C47B81BDDD0AA008DA625 /* CLLockItemView.m in Sources */,
+				799C47B41BDDD0AA008DA625 /* CALayer+Anim.m in Sources */,
+				799C47731BDDD063008DA625 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		799C477F1BDDD063008DA625 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				799C47801BDDD063008DA625 /* Base */,
+				79AC67501BE3691B008B51F0 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		79AC675A1BE36B60008B51F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79AC67591BE36B60008B51F0 /* en */,
+				79AC675B1BE36B61008B51F0 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		79AC675C1BE36BCD008B51F0 /* Localization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79AC675D1BE36BCD008B51F0 /* en */,
+				79AC675F1BE36BD2008B51F0 /* zh-Hans */,
+			);
+			name = Localization.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		799C47831BDDD063008DA625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		799C47841BDDD063008DA625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		799C47861BDDD063008DA625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CoreLockTouchID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ysservice.CoreLockTouchID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		799C47871BDDD063008DA625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = CoreLockTouchID/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ysservice.CoreLockTouchID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		799C47691BDDD063008DA625 /* Build configuration list for PBXProject "CoreLockTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799C47831BDDD063008DA625 /* Debug */,
+				799C47841BDDD063008DA625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799C47851BDDD063008DA625 /* Build configuration list for PBXNativeTarget "CoreLockTouchID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799C47861BDDD063008DA625 /* Debug */,
+				799C47871BDDD063008DA625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 799C47661BDDD063008DA625 /* Project object */;
+}
