@@ -1,0 +1,35 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "44aba19f-b448-cd47-85fb-e3773fef86cd++5326",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "44aba19f-b448-cd47-85fb-e3773fef86cd++5326" : {
+
+    },
+    "0d5e3a64-af4b-4344-a0ef-1b9bff300bb6++4681" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "44aba19f-b448-cd47-85fb-e3773fef86cd++5326" : 0,
+    "0d5e3a64-af4b-4344-a0ef-1b9bff300bb6++4681" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ABF9E6A9-C74A-495E-AC69-55F9A978055C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "44aba19f-b448-cd47-85fb-e3773fef86cd++5326" : "ios\/",
+    "0d5e3a64-af4b-4344-a0ef-1b9bff300bb6++4681" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SDOperateItem",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios组件集成\/移动标题菜单\/SDOperateItem\/SDOperateItem.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.191\/svn\/yidongoa",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0d5e3a64-af4b-4344-a0ef-1b9bff300bb6++4681"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.191\/svn\/mobile",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "44aba19f-b448-cd47-85fb-e3773fef86cd++5326"
+    }
+  ]
+}
