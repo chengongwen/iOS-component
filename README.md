@@ -7,8 +7,11 @@
 
 
 2017.11.1 ---reader小说阅读器
-LSYReader.zip （纯OC开发）
+
+LSYReader.zip （纯OC开发）- iOS基于CoreText实现的电子书阅读器，支持txt，epub格式 https://github.com/GGGHub/Reader
 转发并收藏大神开发的基于TXT，本地文件的小说阅读器项目框架。
+
+（并且附上swift开发的： https://github.com/dengzemiao/DZMeBookRead (支持项目使用)最完整小说阅读器Demo。(仿iReader(掌阅),QQ阅读等常用阅读器阅读页面),支持字体,翻页效果(无效果,覆盖,仿真,上下滚动),字体切换,书签功能,阅读记录,亮度调整,背景颜色切换 等等..）
 
 
 2017.11.10 --- 简单的集成类似QQ左滑动组件框架
