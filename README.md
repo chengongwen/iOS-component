@@ -7,10 +7,11 @@
 
 
 2017.11.1 ---reader小说阅读器
+LSYReader.zip （纯OC开发）
 转发并收藏大神开发的基于TXT，本地文件的小说阅读器项目框架。
 
 
-2017.11.10 --- 简单的集成滑动小框架
+2017.11.10 --- 简单的集成类似QQ左滑动组件框架
 CWLateralSlideHuotunReader.zip : CWLateralSlide(侧滑) 与 系统 NavigationBar,Tabbar集成的简单框架
 LeftSlideViewHuotunReader.zip ：LeftSlideViewController (侧滑) 与 系统 navigationBar,tabbar
 
